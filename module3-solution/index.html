@@ -10,14 +10,25 @@
     <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
 </head>
+<style>
+p{background-color: gray;}
+#HOLA
+{background-color: gray;}
+#top
+{background-color: gray;
+margin: 20px solid black;
+padding: 10px;
+border: 5px solid black;
+}
+</style>
 <body>
 <header>
     <nav id="header-nav" class="navbar navbar-default">
         <div class="container">
             <div class="navbar-header">
-                <div class="navbar-brand">
+                <div class="navbar-brand"><div id="top">
                     <a href="index.html"><h1>Food, LLC</h1></a>
-                </div>
+                </div></div>
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
@@ -26,19 +37,7 @@
                 </button>
             </div>
 
-            <div id="collapsable-nav" class="collapse navbar-collapse">
-                <ul id="nav-list" class="nav navbar-nav navbar-right visible-xs">
-                    <li>
-                        <p class="text-center"> Chicken </p>
-                    </li>
-                    <li>
-                        <p class="text-center"> Beef </p>
-                    </li>
-                    <li>
-                        <p class="text-center"> Sushi </p>
-                    </li>
-                </ul><!-- #nav-list -->
-            </div><!-- .collapse .navbar-collapse -->
+            
         </div><!-- .container -->
     </nav><!-- #header-nav -->
 </header>
@@ -47,12 +46,13 @@
 <div id="main-content" class="container">
     <div id="home-tiles" class="row">
         <div class="col-xs-12">
-            <h2 class="text-center"> Our Menu</h2>
+            <h1 align="center"> Our Menu</h1>
         </div>
         <div class="col-xs-12">
             <div class="item-text">
-                <p class="text-center">
-                    Chicken
+                <div id="HOLA">
+                <p  >
+                    <H3 align="center"> Chicken </H3>
                 </p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque condimentum porttitor sem et sodales. Integer non nibh quis magna varius consectetur ac eu turpis. Aenean vehicula orci velit, non maximus est aliquam eu. Pellentesque quis maximus nisi. Duis vel tincidunt urna. Sed velit nibh, luctus sed
                 dolor ac, lobortis ornare nulla. Suspendisse non condimentum mauris.
@@ -144,6 +144,7 @@
                 Vivamus nec suscipit velit, vestibulum iaculis metus. Sed sollicitudin lacus neque, et auctor erat vulputate at. Duis fermentum ex sit amet magna dapibus, vitae fringilla lorem tempus. Curabitur quis scelerisque justo, sed tincidunt ex. Vivamus eu justo at nulla pulvinar lobortis. Mauris imperdiet porta
                 pulvinar. Nullam blandit justo in metus gravida, eu porttitor eros viverra. Nulla faucibus odio eget nisl suscipit aliquet. Nulla eget ullamcorper libero, aliquam vulputate sem. Aenean eu mattis lorem, in molestie ipsum.
         </div>
+    </div>
     </div><!-- End of #home-tiles -->
 </div><!-- End of #main-content -->
 
